@@ -95,6 +95,10 @@ button:hover {
     margin: 0 auto;
     width: 998px;
 }
+.main-container img {
+    margin: 0 auto;
+    margin-left: 330px;
+}
 /* shared  start*/
 .title {
     width: 850px;
@@ -104,6 +108,7 @@ button:hover {
     font-family: Azeret Mono;
     color: #0d1321;
     line-height: 10px;
+    margin-top: 350px;
 }
 
 .image {
@@ -155,13 +160,34 @@ button:hover {
     font-weight: bold;
     font-family: Azeret Mono;
 }
+.html-bg {
+    border-radius: 16px;
+    background: #e8e4e4;
+    width: 364px;
+    height: 200px;
+}
+.css-bg {
+    border-radius: 16px;
+    background: #d6dff1;
+    width: 364px;
+    height: 200px;
+}
+.js-bg {
+    border-radius: 16px;
+    background: #f3efdd;
+    width: 364px;
+    height: 200px;
+}
+.part {
+    padding: 25px;
+}
 /* shard close */
 .center {
     width: 852px;
     height: 108px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 .container {
     display: flex;
@@ -179,8 +205,20 @@ iframe {
 }
 /* skill  */
 .skills-container {
+    width: 800px;
+    height: 200px;
     display: flex;
+    gap: 8px;
+    margin: 0 auto;
     margin-top: 48px;
+    justify-content: center;
+}
+.skill {
+    border: 1px solid black;
+    gap: 6px;
+    text-align: left;
+    padding: 20px 20px;
+    height: 200px;
 }
 .skill img {
     width: 56px;
@@ -200,4 +238,98 @@ iframe {
     font-size: 16px;
     font-family: Azeret Mono;
     color: #0d1321;
+}
+/* target */
+.target {
+    display: flex;
+    width: 1140px;
+    height: 219px;
+    border: 1px solid black;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+.target img {
+    width: 95px;
+    height: 96px;
+}
+.target-title {
+    width: 942px;
+    height: 52px;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: Azeret Mono;
+    color: #0d1321;
+}
+.terget-description {
+    width: 892px;
+    height: 52px;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: Azeret Mono;
+    color: #0d1321;
+}
+/* footer */
+.foot {
+    background-image: url(../assets/handshake.jpg);
+    max-width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    margin: 0 auto;
+    border: none;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    width: 1100px;
+    height: 270px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+}
+.foot-title {
+    height: 292px;
+    height: 36px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 36px;
+    color: #ffff;
+    font-family: Azeret Mono;
+}
+.foot-description {
+    width: 606px;
+    height: 52px;
+    line-height: 26px;
+    font-size: 16px;
+    font-family: Azeret Mono;
+    color: #ffffff;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+input {
+    width: 400px;
+    height: 54px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #596275;
+}
+.search .btn-foot {
+    width: 120px;
+    height: 74px;
+    border-radius: 8px;
+    padding: 20px 17px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0d1321;
+    font-family: Azeret Mono;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin: 16px;
+    gap: 5px;
 }
