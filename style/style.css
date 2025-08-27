@@ -82,6 +82,7 @@ main button {
     border-radius: 8px;
     background-color: #0d1321;
     color: #ffff;
+    text-decoration: none;
     font-size: 20px;
     font-weight: 600;
     margin-left: 35%;
@@ -110,7 +111,10 @@ button:hover {
     line-height: 10px;
     margin-top: 350px;
 }
-
+.icon {
+    width: 36px;
+    height: 36px;
+}
 .image {
     width: 274px;
     height: 240px;
@@ -180,6 +184,17 @@ button:hover {
 }
 .part {
     padding: 25px;
+}
+.foot-admin {
+    width: 455px;
+    height: 20px;
+
+    padding: 12px 20px;
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: Azeret Mono;
 }
 /* shard close */
 .center {
@@ -332,4 +347,11 @@ input {
     margin-top: 30px;
     margin: 16px;
     gap: 5px;
+}
+.foot-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 50px;
+    margin: 0 auto;
 }
